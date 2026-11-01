@@ -15,7 +15,7 @@ First public release.
 - No other companies' product names in GEOSpace: reverb models Vintage Hall, Studio Plate and
   Classic Plate; chorus modes Subtle, Rich and Ensemble; renamed effect and factory presets.
   Only names change: presets and projects load exactly as before.
-- 128 factory presets: 35 sounds made on an Oberheim OB-X8 by GEOSynths, 80 variations of
+- 128 factory presets: 35 original sounds by GEOSynths, 80 variations of
   them (Wide, Haze, Echoes, Swirl, Tight, Dark, Air, Split, Tape, Vast; each level-matched to
   its original) and 12 classic set-ups. Existing installs get the new ones in empty Factory
   slots; nothing you've saved is replaced.
