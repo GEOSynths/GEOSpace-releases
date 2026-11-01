@@ -42,8 +42,7 @@ Prefer to install by hand? The **.dmg** holds the AU and VST3 to drag into
   their own level and pan.
 - **Output**: Gain In to even out quiet and loud patches, Output, and a hidden limiter that
   keeps GEOSpace from ever clipping.
-- **128 factory presets**: sounds made on an Oberheim OB-X8 and level-matched variations of
-  them, in a Factory bank you can edit.
+- **128 factory presets**: 128 Factory Presets, which you can write over.
 - **Presets**: banks of 128 slots, effect presets on the back of every effect card, and bank
   export/import to share sounds.
 - **Built-in guide**: click the GEOSynths logo inside GEOSpace.
