@@ -4,6 +4,16 @@ GEOSpace uses version numbers like 0.9.0: the last number goes up for fixes, the
 for new features and the first one for big changes. 1.0.0 is the first public release.
 The build number after the version (e.g. 0.9.0 · 6b41ee6) names the exact source it came from.
 
+## 1.0.2 — 2026-11-01
+- **Save As** in the header: save the current sound into any bank (or a new one) and any
+  slot, with the slot list showing which are free. Handy for keeping a factory preset you like
+  in your own bank.
+- Init (and any preset change) now also updates the host's preset display, so Logic's plug-in
+  header shows "Init" instead of the slot's saved name.
+- Dragging a preset onto another slot always swaps the two: preset files numbered differently
+  (for example "8 Pad" from an older version) are no longer left behind and hidden, which
+  could make a preset seem to disappear. Replaced or cleared presets go to the Trash.
+
 ## 1.0.1 — 2026-11-01
 - Chorus and flanger keep the bass (below 120 Hz) dry and centred: on big pads the low end no
   longer builds up (the chorus voices added up to +5 dB of extra bass) or, with through-zero
