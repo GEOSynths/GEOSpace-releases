@@ -57,8 +57,7 @@ Prefer to install by hand? The **.dmg** holds the AU and VST3 to drag into
 ## Updates and support
 
 New versions appear on the [Releases](../../releases) page, each with a list of what changed.
-The full version history is in [CHANGELOG.md](CHANGELOG.md) and inside GEOSpace (click the
-logo → Version History).
+The full version history is also inside GEOSpace (click the logo → Version History).
 
 Questions, bugs and preset ideas: **[www.geosynths.com](https://www.geosynths.com/)**
 

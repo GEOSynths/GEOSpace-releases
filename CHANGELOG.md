@@ -4,6 +4,16 @@ GEOSpace uses version numbers like 0.9.0: the last number goes up for fixes, the
 for new features and the first one for big changes. 1.0.0 is the first public release.
 The build number after the version (e.g. 0.9.0 · 6b41ee6) names the exact source it came from.
 
+## 1.0.1 — 2026-11-01
+- Chorus and flanger keep the bass (below 120 Hz) dry and centred: on big pads the low end no
+  longer builds up (the chorus voices added up to +5 dB of extra bass) or, with through-zero
+  flanging, cancels out. The chorus keeps its gentle lift, now even across the range.
+- Canyon Echo: Size sets the echo spacing (60-200 ms), and the new **Echo Sync** places the
+  echoes on a note value of the host tempo (1/16, 1/8T, 1/8, 1/8D).
+- Delay: **Tap** tempo button.
+- The DSP load readout moved from the header to the About panel.
+- Factory variations re-matched in level to their originals.
+
 ## 1.0.0 — 2026-10-31
 First public release.
 - Six effects: BBD-style Chorus (Subtle, Rich, Ensemble, Manual), Phaser, Flanger with
