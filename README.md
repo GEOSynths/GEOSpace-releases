@@ -35,7 +35,7 @@ Prefer to install by hand? The **.dmg** holds the AU and VST3 to drag into
 - **Chorus**: BBD-style with Subtle, Rich, Ensemble and Manual modes.
 - **Phaser**: 4 to 12 stages, Single or Dual (bi-phase).
 - **Flanger**: with through-zero.
-- **Delay**: tape/BBD voicing, tempo sync, stereo or ping-pong.
+- **Delay**: tape/BBD voicing, tempo sync and tap tempo; Stereo, Ping-Pong or Mono repeats.
 - **Reverb**: ten models from small rooms to huge spaces, with shimmer.
 - **EQ**: 3 bands.
 - **Routing**: drag the effects into any order, or split them into two parallel lanes with
@@ -46,6 +46,9 @@ Prefer to install by hand? The **.dmg** holds the AU and VST3 to drag into
   bank you can edit.
 - **Presets**: banks of 128 slots, effect presets on the back of every effect card, and bank
   export/import to share sounds.
+- **Solo** on every effect, to hear exactly what it does while you set it up.
+- **Create**: eight variations of your sound, from close to wild, to audition with a click;
+  roll the dice for more, build on the one you like, lock effects you want to keep.
 - **Built-in guide**: click the GEOSynths logo inside GEOSpace.
 
 | Routing | Presets |
@@ -53,6 +56,8 @@ Prefer to install by hand? The **.dmg** holds the AU and VST3 to drag into
 | ![Routing](screenshots/routing.png) | ![Presets](screenshots/presets.png) |
 
 ![Effect presets](screenshots/effect-presets.png)
+
+![Create](screenshots/create.png)
 
 ## Updates and support
 

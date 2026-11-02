@@ -4,6 +4,17 @@ GEOSpace uses version numbers like 0.9.0: the last number goes up for fixes, the
 for new features and the first one for big changes. 1.0.0 is the first public release.
 The build number after the version (e.g. 0.9.0 · 6b41ee6) names the exact source it came from.
 
+## 1.1.0 — 2026-11-02
+- **Solo** on every effect card (S): hear one effect on its own, with the dry signal, while
+  setting it up. Not saved, never changes the On switches, ends when the window closes.
+- Delay **Mode**: Stereo (repeats follow the sound's panning), Ping-Pong, and the new **Mono**
+  (repeats in the centre, as loud as in Stereo). Presets and projects keep their delay.
+- **Create** tab: your sound and eight variations of it, from close (A) to wild (H), to click
+  through and audition. Roll a new set with the dice, **Build on this** to keep going from a
+  variation you like, and lock effects to keep them as they are. Each pad shows its effects,
+  their amounts and order at a glance.
+- Drop-down menus use the same font as the knob readouts.
+
 ## 1.0.2 — 2026-11-01
 - **Save As** in the header: save the current sound into any bank (or a new one) and any
   slot, with the slot list showing which are free. Handy for keeping a factory preset you like
