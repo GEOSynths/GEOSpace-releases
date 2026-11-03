@@ -4,6 +4,21 @@ GEOSpace uses version numbers like 0.9.0: the last number goes up for fixes, the
 for new features and the first one for big changes. 1.0.0 is the first public release.
 The build number after the version (e.g. 0.9.0 · 6b41ee6) names the exact source it came from.
 
+## 1.1.1 — 2026-11-03
+- Create: every variation is level-matched to the original (its Gain In trimmed), so switching
+  between series and parallel versions no longer jumps by several dB. The lane levels of
+  variations stay near 0 dB.
+- Create: from a blank preset, every variation now has effects playing.
+- Create: at least three of the wilder variations (D-H) take the other kind of routing, so a
+  parallel sound also gives series versions and a series sound parallel ones.
+- Parallel lanes: each lane's effects now play at full level, as loud as the same effect in
+  series (they were 6 dB lower), while the dry signal still comes out once and the bass stays
+  as it was. Your own two-lane presets come out louder and wetter: lower their lane effects'
+  Mix (or Gain In) to taste. The factory two-lane presets are re-tuned to keep their balance,
+  and every factory variation is level-matched to its original again. If you already had
+  GEOSpace, your Factory bank is left as it was: use **Restore factory presets** (Presets tab)
+  to get the re-tuned ones (replaced presets go to the Trash).
+
 ## 1.1.0 — 2026-11-02
 - **Solo** on every effect card (S): hear one effect on its own, with the dry signal, while
   setting it up. Not saved, never changes the On switches, ends when the window closes.
