@@ -30,6 +30,23 @@ Prefer to install by hand? The **.dmg** holds the AU and VST3 to drag into
    because the installer isn't code-signed yet: click **More info → Run anyway**.
 3. Open your DAW and rescan plug-ins if it doesn't find GEOSpace by itself.
 
+### Finding GEOSpace in your DAW
+GEOSpace is an audio effect from **GEOSynths**: put it on the track (or bus) your synth plays on.
+
+| DAW | Where it is |
+|---|---|
+| **Logic Pro, MainStage, GarageBand** | Audio FX slot → **Audio Units → GEOSynths → GEOSpace** |
+| **Ableton Live** | Browser → **Plug-ins → VST3** (or **Audio Units** on a Mac) **→ GEOSynths → GEOSpace**. If it's missing, turn on *Use VST3 Plug-in System Folders* in Settings → Plug-ins and click Rescan. |
+| **Cubase, Nuendo** | Insert slot → **GEOSynths → GEOSpace** (plug-in list sorted by vendor) |
+| **Studio One** | Browser → Effects, sorted by vendor → **GEOSynths → GEOSpace** |
+| **Bitwig Studio** | Browser → plug-ins, filtered by creator **GEOSynths** → GEOSpace |
+| **Reaper** | Add FX → **VST3** (or **AU**), or **By developer → GEOSynths** → GEOSpace |
+| **FL Studio** | Options → Manage plugins → **Find installed plugins**, then in a mixer insert slot pick **GEOSpace** (favourite it to keep it at the top) |
+
+Not listed? Rescan plug-ins in your DAW's settings. On a Mac, Logic and other AU hosts check
+new plug-ins when they start, so quit and reopen. Pro Tools isn't supported (it needs the AAX
+format).
+
 ## What's inside
 
 - **Chorus**: BBD-style with Subtle, Rich, Ensemble and Manual modes.
