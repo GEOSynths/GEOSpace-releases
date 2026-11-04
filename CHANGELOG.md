@@ -4,6 +4,16 @@ GEOSpace uses version numbers like 0.9.0: the last number goes up for fixes, the
 for new features and the first one for big changes. 1.0.0 is the first public release.
 The build number after the version (e.g. 0.9.0 · 6b41ee6) names the exact source it came from.
 
+## 1.1.2 — 2026-11-04
+- Faster: hosts list GEOSpace's 128 preset names in a few milliseconds instead of over a second
+  (Logic's preset menu, loading), and the interface redraws about twice as fast.
+- Mono-safe bass: the chorus, flanger and phaser effects and the reverb tail keep their lowest
+  octave (below about 150 Hz) the same on both sides, so the low end stays solid when a mix is
+  summed to mono or played on a club system. The stereo image above is unchanged.
+- Reverb Pre-delay changes glide smoothly (no zipper when it's swept or automated).
+- Type exact values: double-click the value under a knob, or right-click → Type a Value.
+- Window size choices (100%, 125%, 150%, 200%) on the About page.
+
 ## 1.1.1 — 2026-11-03
 - Create: every variation is level-matched to the original (its Gain In trimmed), so switching
   between series and parallel versions no longer jumps by several dB. The lane levels of
