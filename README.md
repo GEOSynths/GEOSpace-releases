@@ -47,6 +47,18 @@ Not listed? Rescan plug-ins in your DAW's settings. On a Mac, Logic and other AU
 new plug-ins when they start, so quit and reopen. Pro Tools isn't supported (it needs the AAX
 format).
 
+### Using MIDI Learn in your DAW
+Right-click a GEOSpace knob → **MIDI Learn**, then move a knob on your MIDI controller. GEOSpace
+is an audio effect, so MIDI must be routed to it (a controller plugged in isn't enough); if the
+**Learn** chip in GEOSpace's header keeps waiting, it isn't receiving MIDI.
+
+| DAW | Send MIDI to GEOSpace |
+|---|---|
+| **Logic Pro** | GEOSpace window → **Side Chain** menu → the track or MIDI input your controller plays (keep it selected or record-enabled). Or use Logic's own **Learn** (Cmd-K) to map a controller to any GEOSpace knob. |
+| **Ableton Live** | MIDI track → **MIDI To**: the track with GEOSpace, then **GEOSpace**; Monitor **In**. Or Live's MIDI Map mode (Cmd/Ctrl-M). |
+| **Reaper** | A MIDI send from the controller's track to the GEOSpace track. |
+| **Bitwig, Cubase, Studio One** | Set the GEOSpace track's MIDI input to your controller, or route a MIDI track to it. |
+
 ## What's inside
 
 - **Chorus**: BBD-style with Subtle, Rich, Ensemble and Manual modes.
